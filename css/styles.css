@@ -16,7 +16,16 @@ ul {
   list-style-type: none;
 }
 
-.logo {
+span {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03;
+}
+
+.nav-link-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -26,13 +35,22 @@ ul {
   text-transform: uppercase;
 }
 
-span {
+.nav-link-header {
   color: #2e2f42;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03;
+}
+
+.nav-link-header:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.address-nav {
+  color: #434455;
+  font-style: normal;
+}
+
+.address-nav:active {
+  color: #404bbf;
 }
 
 .button-primary {
