@@ -122,3 +122,11 @@ address {
 .hero-text {
   font-size: 16px;
 }
+
+.section-four-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
