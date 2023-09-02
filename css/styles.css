@@ -107,6 +107,11 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
 }
+
+.hero-background {
+  background-color: #ffffff;
+}
+
 .hero-subtitle {
   font-size: 20px;
   font-weight: 500;
