@@ -52,7 +52,9 @@ span {
   font-style: normal;
 }
 
-.contacts-link:active {
+.contacts-link:active,
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
