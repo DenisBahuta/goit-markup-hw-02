@@ -43,7 +43,8 @@ span {
 }
 
 .nav-link:hover,
-.nav-link:focus {
+.nav-link:focus,
+.nav-link:active {
   color: #404bbf;
 }
 
@@ -52,7 +53,6 @@ span {
   font-style: normal;
 }
 
-.contacts-link:active,
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
@@ -62,13 +62,59 @@ address {
   font-style: normal;
 }
 
+.section-one {
+  background-color: #2e2f42;
+}
+
+.section-one-title {
+  color: #ffffff;
+  font-size: 56px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+}
+
 .button-primary {
   background: var(--IRIS, #4d5ae5);
   cursor: pointer;
   color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button-primary:hover,
-button-primary:focus {
+.button-primary:focus {
   background: var(--OCEAN, #404bbf);
+}
+
+.section-two-subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-three {
+  background-color: #f4f4fd;
+}
+
+.section-three-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.hero-subtitle {
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.hero-text {
+  font-size: 16px;
 }
