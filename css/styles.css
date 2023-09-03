@@ -3,7 +3,6 @@ body {
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
-  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -20,7 +19,7 @@ ul {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -95,12 +94,18 @@ address {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
+.section-two-text {
+  font-weight: 400;
+}
+
 .section-three {
   background-color: #f4f4fd;
 }
 
 .section-three-title {
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -121,6 +126,13 @@ address {
 }
 .hero-text {
   font-size: 16px;
+  font-weight: 400;
+}
+
+.section-four-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .section-four-subtitle {
@@ -151,4 +163,5 @@ address {
 
 .footer-text {
   color: #f4f4fd;
+  font-weight: 400;
 }
